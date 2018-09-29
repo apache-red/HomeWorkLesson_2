@@ -101,7 +101,7 @@ public class OtherTask_1_IntervalConsoleProgram {
 
         private void setInterval_1(){
             indicatorMenu = true;
-        if (mass[0] > mass[1] && mass[0]<= mass[2]){
+        if ((mass[0] > mass[1] && mass[0]<= mass[2]) || mass[0] == mass[2]){
             System.out.println("-----------------------------------------");
             System.out.println("The intervals ("+mass[1]+", "+mass[2]+"] contains number "+ mass[0]);
             System.out.println("-----------------------------------------");
@@ -117,7 +117,7 @@ public class OtherTask_1_IntervalConsoleProgram {
 
     private void setInterval_2() {
         indicatorMenu = true;
-        if (mass[0] >= mass[1] && mass[0]< mass[2]){
+        if ((mass[0] >= mass[1] && mass[0]< mass[2]) || mass[0] == mass[1]){
             System.out.println("-----------------------------------------");
             System.out.println("The intervals ["+mass[1]+", "+mass[2]+")contains number "+ mass[0]);
             System.out.println("-----------------------------------------");
@@ -147,7 +147,7 @@ public class OtherTask_1_IntervalConsoleProgram {
     }
     private void setInterval_4() {
         indicatorMenu = true;
-        if (mass[0] >= mass[1] && mass[0]<= mass[2]){
+        if ((mass[0] >= mass[1] && mass[0]<= mass[2]) || mass[0] == mass[2] || mass[0] == mass[1]){
             System.out.println("-----------------------------------------");
             System.out.println("The intervals ["+mass[1]+", "+mass[2]+"]contains number "+ mass[0]);
             System.out.println("-----------------------------------------");
