@@ -15,12 +15,16 @@ public class Main {
         // OtherTask_2 otherTask_2 = new OtherTask_2(33,6);
         // otherTask_2.start();
         //// Task 3
-
-
-
+        //        OtherTask_3 otherTask_3 = new OtherTask_3();
+        //        otherTask_3.start();
         //// Task 4
-        OtherTask_4 otherTask_4 = new OtherTask_4();
-        otherTask_4.start();
+        //        OtherTask_4 otherTask_4 = new OtherTask_4();
+        //        otherTask_4.start();
+
+
+
+
+
 
 
 
