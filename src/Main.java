@@ -1,3 +1,4 @@
+import calculator.Calculator;
 import otherTask.OtherTask_1_IntervalConsoleProgram;
 import otherTask.OtherTask_2;
 import otherTask.OtherTask_3;
@@ -21,11 +22,8 @@ public class Main {
         //        OtherTask_4 otherTask_4 = new OtherTask_4();
         //        otherTask_4.start();
 
-
-
-
-
-
+        Calculator calculator = new Calculator();
+        calculator.start();
 
 
     }
