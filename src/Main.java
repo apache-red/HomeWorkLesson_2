@@ -1,4 +1,5 @@
 import calculator.Calculator;
+import otherTask.Lesson2HW_1;
 import otherTask.OtherTask_1_IntervalConsoleProgram;
 import otherTask.OtherTask_2;
 import otherTask.OtherTask_3;
@@ -21,10 +22,14 @@ public class Main {
         //// Task 4
         //        OtherTask_4 otherTask_4 = new OtherTask_4();
         //        otherTask_4.start();
+//// Calculator OOP
+//        Calculator calculator = new Calculator();
+//        calculator.start();
 
-        Calculator calculator = new Calculator();
-        calculator.start();
-
+        //Lesson 2 HW
+    	////Task_1
+        Lesson2HW_1 lesson2hw_1 = new Lesson2HW_1(20);
+        lesson2hw_1.start();
 
     }
 }
