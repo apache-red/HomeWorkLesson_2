@@ -5,9 +5,7 @@ import java.util.Arrays;
 public class Lesson2HW_1 {
 
 	private int size;
-	
-	
-	
+		
 	public Lesson2HW_1(int size) {
 		super();
 		this.size = size;
